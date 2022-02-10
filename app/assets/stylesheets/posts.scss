@@ -1,0 +1,14 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// color
+$baseColor:   #58aeed; //ベースカラー
+.posts__container {
+    padding: 0;
+    background: #ffffff;
+    overflow: hidden;
+    //max-width: 400px; 
+    margin: 20px auto;
+    font-size: 80%;
+    border: solid 1px #eeeeee;
+  }

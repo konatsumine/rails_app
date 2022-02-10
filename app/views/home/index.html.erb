@@ -1,0 +1,19 @@
+<div class="form-wrapper">
+    <h2>Welcome to Geek Instagram</h2>
+    <form>
+      <div class="form-item">
+        <label for="email"></label>
+        <input type="email" name="email" required="required" placeholder="Email Address"></input>
+      </div>
+      <div class="form-item">
+        <label for="password"></label>
+        <input type="password" name="password" required="required" placeholder="Password"></input>
+      </div>
+      <div class="d-grid gap-2">
+        <%= link_to "ログイン", posts_path:"btn btn-primary" %>
+      </div>
+    </form>
+  <div class="form-footer">
+  <%= link_to "アカウント作成", new_user_registration_path %>
+  </div>
+</div>
